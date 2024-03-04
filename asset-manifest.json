@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Noti/static/css/main.3cea42f3.css",
+    "main.js": "/Noti/static/js/main.69479d44.js",
+    "static/js/536.513b5323.chunk.js": "/Noti/static/js/536.513b5323.chunk.js",
+    "index.html": "/Noti/index.html",
+    "main.3cea42f3.css.map": "/Noti/static/css/main.3cea42f3.css.map",
+    "main.69479d44.js.map": "/Noti/static/js/main.69479d44.js.map",
+    "536.513b5323.chunk.js.map": "/Noti/static/js/536.513b5323.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cea42f3.css",
+    "static/js/main.69479d44.js"
+  ]
+}
