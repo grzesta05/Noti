@@ -1,0 +1,50 @@
+.chip {
+  top: -0.4rem;
+  right: -0.4rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+}
+.addTopic {
+  width: 95%;
+  margin: 2vh !important;
+  border-style: dashed !important;
+  border-width: 3px !important;
+}
+.topicsContainer {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.topic {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  width: 20%;
+  padding: 5%;
+  color: black;
+  text-decoration: none;
+  margin: 1vw;
+  transition: all 0.4s;
+}
+
+.topic:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 4px gray;
+  transition: all 0.4s;
+}

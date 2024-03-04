@@ -1,0 +1,14 @@
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  width: 10vh;
+  position: fixed;
+  top: 5vh;
+  height: 95vh;
+  justify-content: center;
+  box-shadow: 1px 0px 2px gray;
+  transition: all 1s;
+}
+
+.icon > * {
+}

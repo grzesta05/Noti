@@ -1,0 +1,20 @@
+.dialog[open] {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2vw;
+  width: 50%;
+}
+.dialog > * {
+  width: 100%;
+}
+
+.dialog > h2 {
+  text-align: center;
+}
+.floatingBox {
+  border: none;
+  border-radius: 2vw;
+  box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.394);
+}

@@ -1,0 +1,18 @@
+.card {
+  height: 15vh;
+  width: 20vw;
+  margin: 2vh;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  transition: all 0.3s;
+}
+.card:hover {
+  box-shadow: 0px 0px 3px gray;
+  transition: all 0.3s;
+  transform: scale(1.2);
+}
+
+.addTopic {
+}

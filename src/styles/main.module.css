@@ -1,0 +1,86 @@
+html {
+  overflow-x: hidden;
+}
+.container img {
+  position: absolute;
+  opacity: 1;
+  border-radius: 150px;
+
+  z-index: 80;
+}
+.panel {
+  background-color: rgba(47, 47, 47, 0.48);
+  background-blend-mode: multiply;
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/06/22/01/books-2596809_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+.panel > h1 {
+  margin: 0;
+}
+
+.block {
+  background: url("https://www.toptal.com/designers/subtlepatterns/uploads/pipes.png");
+  background-blend-mode: multiply;
+
+  background-color: rgb(239, 239, 239);
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  box-shadow: 0px -2px 10px black;
+}
+.block > p {
+  padding: 1vh;
+  font-size: 1.2rem;
+  background-color: white;
+  margin: 5rem;
+  width: 35%;
+  border-radius: 10px;
+  z-index: 101;
+}
+
+.block > h2 {
+  left: 0;
+  margin: 0 !important;
+  width: 90vw;
+  padding: 10vh;
+  text-align: center;
+  z-index: 100;
+
+  background-color: white;
+}
+.block > p::after {
+  content: "";
+  display: block;
+  height: 0.2em;
+
+  vertical-align: bottom;
+  width: 100%;
+  margin-right: -100%;
+
+  border-bottom: 0.2em solid #1976d2;
+  border-radius: 100px;
+}
+.block > p::before {
+  content: "";
+  display: block;
+  height: 0.5em;
+  vertical-align: bottom;
+  width: 100%;
+  margin-right: -100%;
+
+  border-top: 0.2em solid #1976d2;
+  border-radius: 100px;
+}

@@ -1,0 +1,25 @@
+.header {
+  padding: 1vw;
+  text-align: center;
+  margin: 2vw;
+}
+
+.percentageContainer {
+  margin: 2vw;
+  padding: 2vw;
+  width: 40vw;
+}
+.chip {
+  top: -0.4rem;
+  right: -0.4rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px gray;
+}

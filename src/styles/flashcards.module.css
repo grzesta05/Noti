@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.container > p {
+  color: gray;
+  font-size: 0.8rem;
+  margin: 1px;
+}
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.cardContainer > button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: gray;
+  cursor: pointer;
+}
+.card {
+  user-select: none;
+  padding: 4rem;
+}

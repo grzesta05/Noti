@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  width: 50vw;
+  padding: 5vw;
+  transition: all 0.4s;
+}
+.answer {
+  font-size: 1.4rem;
+}

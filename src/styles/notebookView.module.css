@@ -1,0 +1,19 @@
+.linkContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.link {
+  width: 100%;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+  border-bottom: gray 5px solid;
+  transition: all 0.4s;
+}
+
+.link:hover {
+  border-bottom: 5px solid #1976d2;
+  transition: all 0.4s;
+}

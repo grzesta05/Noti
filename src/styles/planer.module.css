@@ -1,0 +1,14 @@
+.date {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  min-width: 300px;
+  padding: 5vh;
+}
+
+.repetitionsContainer {
+  padding: 5vh;
+  min-width: 300px;
+  width: 30vw;
+  columns: 2;
+}
